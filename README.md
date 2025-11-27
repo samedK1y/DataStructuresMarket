@@ -12,7 +12,7 @@ Bu projeyi **veri yapıları dersine geçmeden önce** bir hazırlık olarak ba�
 
 ---
 
-## 🔧 Şu Ana Kadar Kullandığım Yapılar
+## Şu Ana Kadar Kullandığım Yapılar
 - `struct` ile ürünleri tek yapı altında toplama  
 - `pointer` ve adres mantığı  
 - `malloc()` ile dinamik bellek ayırma  
@@ -23,7 +23,7 @@ Bu projeyi **veri yapıları dersine geçmeden önce** bir hazırlık olarak ba�
 
 ---
 
-## 🚀 İlerde Eklemek İstediğim Özellikler
+##  İlerde Eklemek İstediğim Özellikler
 - Ürün silme  
 - Dosyaya kayıt / dosyadan okuma (txt)
 - Linked List yapısıyla ürün ekleme / silme  
