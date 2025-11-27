@@ -11,13 +11,34 @@ struct Urun
 
 int main()
 {
-    struct Urun s1;
-    printf("Urun adini giriniz: ");
-    scanf("%s", &s1.urunAdi);
-    printf("Urun fiyatini giriniz: ");
-    scanf("%f", &s1.fiyat);
-    printf("Urunun stok fiyatini giriniz: ");
-    scanf("%d", &s1.stok);
+    struct Urun *urunler;
+    int n, i;
+    printf("Kac tane urun girilecek: ");
+    scanf("%d", &n);
 
-    printf("\n\nUrun Adi: %s \t Urun fiyati: %0.01f \t Stok Adedi: %d", s1.urunAdi, s1.fiyat, s1.stok);
+    urunler = malloc(n * sizeof(struct Urun));
+
+    if (urunler == NULL)
+    {
+        printf("Bellek Ayrilamadi...");
+        return 1;
+    }
+    else
+    {
+        for (i = 0; i < n; i++)
+        {
+            printf("Urun adini giriniz: ");
+            scanf("%s", urunler[i].urunAdi);
+            printf("Urun fiyatini giriniz: ");
+            scanf("%f", &urunler[i].fiyat);
+            printf("Urunun stok fiyatini giriniz: ");
+            scanf("%d", &urunler[i].stok);
+        }
+        printf("\n\n----URUN LİSTESİ----\n\n");
+        for (i = 0; i < n; i++)
+        {
+            printf("\nUrun Adi: %s \t Urun fiyati: %0.01f \t Stok Adedi: %d\n", urunler[i].urunAdi, urunler[i].fiyat, urunler[i].stok);
+        }
+    }
+    free(urunler);
 }
