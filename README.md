@@ -1,40 +1,36 @@
-# DataStructuresMarket 
+# DataStructuresMarket
 
-C dilinde struct, pointer ve dinamik bellek kullanılarak geliştirilmiş mini market otomasyonu projesi.
+C dilinde **struct**, **pointer** ve **dinamik bellek yönetimi** üzerine çalışarak geliştirdiğim mini market otomasyonu projesi.
 
-## Proje Genel Amacı
-- Struct yapısını öğrenmek
-- Pointer ve bellek yönetimini uygulamak
-- Veri yapıları dersine giriş için temel altyapı oluşturmak
+##  Proje Amacım
 
----
-
-## — Ürün Bilgisi Alma
-Kullanıcıdan:
-- Ürün adı
-- Ürün fiyatı
-- Stok miktarı  
-
-bilgileri alınır ve terminalde gösterilir.
+Bu projeyi **veri yapıları dersine geçmeden önce** bir hazırlık olarak başlattım. Amacım:
+- Struct ve pointer konularını gerçek bir senaryoda kullanmak
+- `malloc`, `realloc`, `free` ile dinamik bellek mantığını iyice kavramak
+- Fonksiyonları modüler bir yapıda kullanmaya alışmak
+- İleride **stack, queue, linked list** gibi yapılara geçmek için sağlam temel oluşturmak
 
 ---
 
-##  Sonraki Hedefler (Geliştirme Planı)
-- Çoklu ürün kaydetme (dinamik dizi)
-- Dosyaya kayıt / dosyadan okuma (.txt)
-- Linked List ile ürün ekleme / silme
-- Menü sistemi ile küçük market otomasyonu
+## 🔧 Şu Ana Kadar Kullandığım Yapılar
+- `struct` ile ürünleri tek yapı altında toplama  
+- `pointer` ve adres mantığı  
+- `malloc()` ile dinamik bellek ayırma  
+- `free()` ile belleği geri verme  
+- `strcmp()` ile ürün arama  
+- Fonksiyonlarla **listeleme – arama – güncelleme** işlemleri  
+- `while` döngüsü ile menü sistemi  
 
 ---
 
-##  Kullanılan Yapılar
-- `struct`
-- `malloc`, `realloc`, `free`
-- `scanf`, `printf`
-- `pointer`
+## 🚀 İlerde Eklemek İstediğim Özellikler
+- Ürün silme  
+- Dosyaya kayıt / dosyadan okuma (txt)
+- Linked List yapısıyla ürün ekleme / silme  
+- Küçük bir market satış sistemi  
+- Veri yapıları dersindeki konulara (Queue, Stack, Tree) bu proje üzerinden geçiş yapmak  
 
 ---
 
- **Proje geliştirilmeye devam ediyor...**  
-*Hazırlayan:* **Samed Karyağdı**  
- 
+**Projeyi geliştirmeye devam ediyorum.**
+Hazırlayan: **Samed Karyağdı**
