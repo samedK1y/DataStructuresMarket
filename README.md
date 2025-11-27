@@ -1,20 +1,40 @@
-# DataStructuresMarket
+# DataStructuresMarket 🛒
 
-C dilinde struct, pointer ve bellek yönetimi kullanılarak geliştirilmiş temel market otomasyonu projesi.
+C dilinde struct, pointer ve dinamik bellek kullanılarak geliştirilmiş mini market otomasyonu projesi.
 
-## Amaç
-- Struct kullanımını öğrenmek
-- Dinamik bellek yönetimi (malloc, realloc, free)
-- Veri yapıları öncesi ısınma projesi
+## 🎯 Proje Amacı
+- Struct yapısını öğrenmek
+- Pointer ve bellek yönetimini uygulamak
+- Veri yapıları dersine giriş için temel altyapı oluşturmak
 
-## Görevler
-### Görev 1 — Struct ile Ürün Bilgisi Alma
+---
+
+## 🧪 Görev 1 — Ürün Bilgisi Alma
+Kullanıcıdan:
 - Ürün adı
-- Fiyat
-- Stok miktarı
-- Terminalde gösterim
+- Ürün fiyatı
+- Stok miktarı  
 
-## İleride Eklenecekler
-- Çoklu ürün alma (dinamik dizi)
-- Dosyaya kayıt (.txt export)
-- Linked List ile ürün ekleme/silme
+bilgileri alınır ve terminalde gösterilir.
+
+---
+
+##  Sonraki Hedefler (Geliştirme Planı)
+- Çoklu ürün kaydetme (dinamik dizi)
+- Dosyaya kayıt / dosyadan okuma (.txt)
+- Linked List ile ürün ekleme / silme
+- Menü sistemi ile küçük market otomasyonu
+
+---
+
+##  Kullanılan Yapılar
+- `struct`
+- `malloc`, `realloc`, `free`
+- `scanf`, `printf`
+- `pointer`
+
+---
+
+ **Proje geliştirilmeye devam ediyor...**  
+*Hazırlayan:* **Samed Karyağdı**  
+ 
