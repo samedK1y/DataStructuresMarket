@@ -1,15 +1,15 @@
-# DataStructuresMarket 🛒
+# DataStructuresMarket 
 
 C dilinde struct, pointer ve dinamik bellek kullanılarak geliştirilmiş mini market otomasyonu projesi.
 
-## 🎯 Proje Amacı
+## Proje Genel Amacı
 - Struct yapısını öğrenmek
 - Pointer ve bellek yönetimini uygulamak
 - Veri yapıları dersine giriş için temel altyapı oluşturmak
 
 ---
 
-## 🧪 Görev 1 — Ürün Bilgisi Alma
+## — Ürün Bilgisi Alma
 Kullanıcıdan:
 - Ürün adı
 - Ürün fiyatı
